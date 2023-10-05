@@ -1,0 +1,15 @@
+
+/* ELement Selektor*/
+div{
+    background-color: aquamarine;
+}
+
+/* ID Selektor*/
+#header{
+    font-size: 2rem;
+}
+
+/* Klassen Selektor*/
+.subtitle{
+    color:red;
+}
