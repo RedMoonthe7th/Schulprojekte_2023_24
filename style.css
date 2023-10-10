@@ -1,15 +1,41 @@
 
-/* ELement Selektor*/
 div{
-    background-color: aquamarine;
+border-style: solid;
+border-width: 3px;
 }
-
 /* ID Selektor*/
-#header{
-    font-size: 2rem;
+#yellowbox {
+    background-color: yellow;
+    height: 10vw;
+    width: 100vw;
+    position: relative;
 }
 
-/* Klassen Selektor*/
-.subtitle{
-    color:red;
+#bluebox {
+    background-color: rgb(73, 73, 219);
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#purplebox {
+    background-color: purple;
+    height: 50px;
+    width: 50px; 
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+#redbox {
+    background-color: red;
+    height: 100px;
+    width: 140px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
 }
