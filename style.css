@@ -1,14 +1,25 @@
-
-div{
-border-style: solid;
-border-width: 3px;
+div {
+    border-style: solid;
+    border-width: 3px;
 }
+
+
 /* ID Selektor*/
 #yellowbox {
     background-color: yellow;
     height: 10vw;
     width: 100vw;
     position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.greenbox {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
 }
 
 #bluebox {
@@ -25,7 +36,7 @@ border-width: 3px;
 #purplebox {
     background-color: purple;
     height: 50px;
-    width: 50px; 
+    width: 50px;
     bottom: 0px;
     right: 0px;
     position: absolute;
