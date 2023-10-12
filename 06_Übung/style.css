@@ -13,10 +13,11 @@ div {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
 }
 
-.greenbox {
-    background-color: green;
+.aquabox {
+    background-color: mediumaquamarine;
     height: 30px;
     width: 30px;
     margin: 10px;
@@ -28,6 +29,7 @@ div {
     width: 400px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 50px;
     padding-top: 20px;
     padding-left: 20px;
     position: relative;
@@ -37,15 +39,15 @@ div {
     background-color: purple;
     height: 50px;
     width: 50px;
-    bottom: 0px;
+    top: 0px;
     right: 0px;
-    position: absolute;
+    position: fixed;
 }
 
 #redbox {
     background-color: red;
     height: 100px;
-    width: 140px;
+    width: 100px;
     bottom: 0px;
     right: 0px;
     position: absolute;
