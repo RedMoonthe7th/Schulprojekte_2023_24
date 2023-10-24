@@ -1,0 +1,66 @@
+body {
+    background-color: red;
+    display: flexbox;
+}
+div {
+    margin: 10px;
+}
+
+.borderBox {
+    border-style: solid;
+    border-width: 3px;
+}
+#smallBox {
+    width: 50px;
+    height: 50px;
+}
+#leftBox {
+    width: 500px;
+    height: 300px;
+}
+
+#rightBox {
+    width: 300px;
+    height: 300px;
+
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+
+    .borderBox {
+        border-style: solid;
+        border-width: 3px;
+        margin: 10px;
+    }
+
+    #headerBox {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #smallBox {
+        width: 50px;
+        height: 50px;
+    }
+
+    #mainBox {
+        display: flex;
+    }
+
+    #leftBox {
+        width: 500px;
+        height: 300px;
+    }
+
+    #rightBox {
+        width: 300px;
+        height: 300px;
+
+    }
+}
