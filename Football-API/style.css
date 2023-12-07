@@ -24,6 +24,12 @@ a:hover{
   background-color: gray;
 }
 
+/*Tabel*/
+.line{
+  background-color: blue;
+}
+
+
 /*Clubs*/
 .grid-container-clubs{
   display: grid;
