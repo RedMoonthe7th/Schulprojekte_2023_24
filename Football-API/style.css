@@ -3,38 +3,56 @@
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.navOption{
+.navOption {
   margin-left: 20px;
   margin-right: 20px;
   padding: 12px;
   display: block;
   font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a:link{
+a:link {
   text-decoration: none;
   color: black;
 }
-a:visited{
+
+a:visited {
   color: black;
 }
-a:hover{
+
+a:hover {
   background-color: gray;
 }
 
-/*Clubs*/
-.grid-container-clubs{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin: 100px;
-  
+.headline {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 70px;
+  margin-left: 40px;
 }
 
-.grid-item-clubs{
-  width: 200px;
-  height: 50px;
-  background-color: blue;
-  margin: 10px;
+#saison {
+  margin-left: 40px;
+  color: gray;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#saisonDate {
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo {
+  height: 60px;
 }

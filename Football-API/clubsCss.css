@@ -1,0 +1,29 @@
+/*Clubs*/
+#grid-container-clubs{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: auto;
+    margin: 50px;
+    
+  }
+  
+  .grid-item-clubs{
+    display: inline-flex;
+    align-items: center;
+    width: 256px;
+    height: 100px;
+    background-color: rgb(246, 244, 244);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .grid-item-clubs:hover{
+    background-color: gray;
+  }
+
+#logo{
+    height: 60px;
+}

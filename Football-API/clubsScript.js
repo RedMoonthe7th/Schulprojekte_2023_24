@@ -1,5 +1,3 @@
-alert("Hello")
-console.log("Test")
 
 /*Clubs*/
 fetch("https://api.openligadb.de/getavailableteams/bl1/2023").then((result) => {
@@ -11,13 +9,11 @@ fetch("https://api.openligadb.de/getavailableteams/bl1/2023").then((result) => {
 })
 
 function getHTMLForTabel(data){
-    let clubsHtml = "<ul>";
-
+    let clubsHtml = "";
     /* + "<div id=''>" + index + "</div>" */
     data.forEach((element,index) =>{
         index += 1;
-        clubsHtml += "";
+        clubsHtml += "<div class='grid-container-clubs'>" + "<div class='grid-item-clubs'>" + "<div><img id='logo' src=" + element.teamIconUrl + "></div>" + "<div id='name'>" + element.teamName + "</div>" + "</div>" + "</div>";
     });
-    clubsHtml += "</ul>";
-    document.getElementById("content").innerHTML = clubsHtml;
+    document.getElementById("grid-container-clubs").innerHTML = clubsHtml;
 }
