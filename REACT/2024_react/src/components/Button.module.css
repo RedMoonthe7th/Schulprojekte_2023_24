@@ -1,0 +1,8 @@
+.main{
+    background-color: rgb(78, 200, 78);
+    color: white;
+    padding: 10px;
+}
+.main:hover{
+    cursor: pointer;
+}
