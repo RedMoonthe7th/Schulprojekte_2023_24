@@ -1,16 +1,18 @@
 import './index.css';
-import PeopleContainer from './components/PeopleContainer';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import FootballMenu from './components/FootballMenu';
+import FootballMenu from './components/Football-API/FootballMenu';
+import FootballHeaderNav from './components/Football-API/FootballHeaderNav';
 
 function App() {
   return (
     <div>
+      <FootballHeaderNav/>
       <FootballMenu/>
     </div>
+
   );
 }
 

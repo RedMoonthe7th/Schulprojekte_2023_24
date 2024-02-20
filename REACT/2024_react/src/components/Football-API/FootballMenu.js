@@ -3,11 +3,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import FootballClubs from './FootballClubs';
 
 const router = createBrowserRouter([
   {
     path: "/clubs",
-    element: <div>Clubs Prototype</div>,
+    element: <FootballClubs/>,
   },
   {
     path: "/tabel",
