@@ -5,7 +5,7 @@ export default function FootballHeaderNav() {
     return (
         <div className='flex gap-80 items-center'>
             <img src="bundesliga_pos.png" alt="bundesliga_pos"></img>
-            <div className='flex gap-32'>
+            <div className='flex gap-40'>
                 <NavLink
                     to="/"
                     className={({ isActive }) => isActive ? 'activeLink' : 'navLink'}>
