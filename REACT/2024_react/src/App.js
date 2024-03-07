@@ -12,7 +12,7 @@ import FootballTable from './components/Football-API/FootballTable';
 
 function App() {
   return (
-    <div className='bg-[#2B3434]'>
+    <div className=''>
       <Router>
       <div className='shadow'><FootballHeaderNav /></div>
 

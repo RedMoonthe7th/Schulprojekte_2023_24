@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 export default function FootballHeaderNav() {
     return (
-        <div className='flex gap-80 items-center'>
+        <div className='flex gap-80 items-center mb-8'>
             <img src="bundesliga_pos.png" alt="bundesliga_pos"></img>
-            <div className='flex gap-40'>
+            <div className='flex gap-40 '>
                 <NavLink
                     to="/"
                     className={({ isActive }) => isActive ? 'activeLink' : 'navLink'}>

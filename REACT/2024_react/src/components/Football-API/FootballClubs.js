@@ -12,10 +12,17 @@ export default function FootballClubs() {
     }, [])
 
     return (
-        <div className='grid grid-rows-4 w-full'>
-                {clubs.map((element) => {
-                    return <FootballClubsItem name={element.teamName} imageUrl={element.teamIconUrl} />
-                })}
-            </div>
+        <div className='m-5'>
+            <div className='font-bold text-2xl'>Clubsübersicht</div>
+            <div className='text-slate-400 text-sm'>Saison</div>
+            <div>2023-2024</div>
+            <div className='grid grid-cols-3 '>
+            {clubs.map((element) => {
+                return <FootballClubsItem name={element.teamName} imageUrl={element.teamIconUrl} />
+            })}
+        </div>
+
+        </div>
+        
     )
 }
