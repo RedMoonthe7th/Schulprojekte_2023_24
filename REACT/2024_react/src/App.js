@@ -14,14 +14,12 @@ function App() {
   return (
     <div className=''>
       <Router>
-      <div className='sticky top-0 shadow-lg'><FootballHeaderNav /></div>
-
-       
+        <div className='sticky top-0 shadow-lg'><FootballHeaderNav /></div>
         <Routes>
-          <Route path='/' element={<div>Placeholder</div>}/>
-          <Route path='/Gameplan' element={<div>Placeholder</div>}/>
-          <Route path="/Table" element={<FootballTable/>}/>
-          <Route path="/Clubs" element={<FootballClubs/>}/>
+          <Route path='/' element={<div>Placeholder</div>} />
+          <Route path='/Gameplan' element={<div>Placeholder</div>} />
+          <Route path="/Table" element={<FootballTable />} />
+          <Route path="/Clubs" element={<FootballClubs />} />
         </Routes>
       </Router>
     </div>
