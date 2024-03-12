@@ -14,7 +14,7 @@ function App() {
   return (
     <div className=''>
       <Router>
-      <div className='shadow'><FootballHeaderNav /></div>
+      <div className='sticky top-0 shadow-lg'><FootballHeaderNav /></div>
 
        
         <Routes>

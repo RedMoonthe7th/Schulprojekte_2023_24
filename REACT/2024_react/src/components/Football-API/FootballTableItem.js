@@ -1,12 +1,12 @@
 import React from 'react';
 export default function FootballTableItem({ imageUrl, name, games, wins, draws, losses, goals, opponentGoals, goalDifference, points }) {
     return (
-        <div className='flex m-5 bg-slate-300 justify-between'>
+        <div className='flex m-5 font-semibold shadow-md justify-between'>
             <div className='flex h-14 self-center'>
                 <div className=''>
                     <img src={imageUrl} alt='clubLogo' className='object-cover w-full h-full'></img>
                 </div>
-                <div className='self-center ml-5'>{name}</div>
+                <div className='self-center  ml-5'>{name}</div>
             </div>
 
             <div className='flex self-center mr-5'>

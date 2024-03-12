@@ -19,9 +19,9 @@ export default function FootballTable() {
             <div className='text-slate-400 text-sm'>Saison</div>
             <div>2023-2024</div>
 
-            <div className='flex justify-between'>
+            <div className='flex justify-between font-semibold'>
                 <div className='w-5 invisible '>Name</div>
-                <div className='flex self-center mr-5 bg-slate-300'>
+                <div className='flex self-center mr-5 '>
                     <div className='w-5 mr-5'>Sp</div>
                     <div className='w-5 mr-5'>S</div>
                     <div className='w-5 mr-5'>U</div>
